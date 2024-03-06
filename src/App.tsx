@@ -1,10 +1,15 @@
 import React from 'react';
+import { AppRoot } from '@vkontakte/vkui';
+import '@vkontakte/vkui/dist/vkui.css';
+import PageLayout from './components/PageLayout';
 
 function App() {
   return (
-    <div className="App">
-      hello world
-    </div>
+    <AppRoot>
+      <PageLayout>
+        Something here
+      </PageLayout>
+    </AppRoot>
   );
 }
 
